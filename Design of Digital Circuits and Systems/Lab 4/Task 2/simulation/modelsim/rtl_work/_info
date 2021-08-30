@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab 4/lab4 task 2/simulation/modelsim
+vram32x8
+Z1 !s110 1621152911
+!i10b 1
+!s100 QnOTM4KI^8fY<^cUDYjQW1
+Ibmkb1XWV`XjJnMKFBd@DW3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1621063873
+Z4 8C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab 4/lab4 task 2/ram32x8.v
+Z5 FC:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab 4/lab4 task 2/ram32x8.v
+L0 40
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1621152911.000000
+Z8 !s107 C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab 4/lab4 task 2/ram32x8.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab 4/lab4 task 2|C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab 4/lab4 task 2/ram32x8.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work {+incdir+C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab 4/lab4 task 2}
+Z12 tCvgOpt 0
+vram32x8_testbench
+R1
+!i10b 1
+!s100 `2:Vzc9^hHYS^^EGaYMSl0
+IJnUP[9mBg>DC9=0MM<8FO3
+R2
+R0
+R3
+R4
+R5
+L0 186
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12

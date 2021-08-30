@@ -1,0 +1,213 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/simulation/modelsim
+vclock_divider
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1620451894
+!i10b 1
+!s100 jX^EFjZd=Bej]?mX3OUkM0
+IHCCln9OdbB:7g8FF7?U4n0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 DE1_SoC_sv_unit
+S1
+R0
+Z5 w1620451033
+Z6 8C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/DE1_SoC.sv
+Z7 FC:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/DE1_SoC.sv
+L0 132
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1620451894.000000
+Z10 !s107 C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/DE1_SoC.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3|C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/DE1_SoC.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3}
+Z14 tCvgOpt 0
+vDE1_SoC
+R1
+R2
+!i10b 1
+!s100 C56UX?I8oPU?b2HkLVQA50
+IcdcCaWUc?1:ZHc1OD:69X3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 10
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@d@e1_@so@c
+vDE1_SoC_testbench
+R1
+R2
+!i10b 1
+!s100 fK2STd:;7UQAnUR1jMDIX2
+IIl@oB9ilYjaCVGX50Z]DP2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 88
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@d@e1_@so@c_testbench
+vfsm
+R1
+Z15 !s110 1620451893
+!i10b 1
+!s100 fkGT4[R`nC7;5c;G0Ui^o1
+IB1HW5KBdK0dRGUT<zhb[:2
+R3
+Z16 !s105 fsm_sv_unit
+S1
+R0
+Z17 w1620451870
+Z18 8C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/fsm.sv
+Z19 FC:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/fsm.sv
+L0 11
+R8
+r1
+!s85 0
+31
+Z20 !s108 1620451893.000000
+Z21 !s107 C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/fsm.sv|
+Z22 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3|C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/fsm.sv|
+!i113 1
+R12
+R13
+R14
+vfsm_testbench
+R1
+R15
+!i10b 1
+!s100 5N6oU;UT9kQHS`me582]H2
+IzFPPozKQoVA[9DNzii]bn3
+R3
+R16
+S1
+R0
+R17
+R18
+R19
+L0 177
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R12
+R13
+R14
+vline_drawer
+R1
+R15
+!i10b 1
+!s100 V;o:@N^OM82_`3^5X[6^P0
+I6:T5jkR0F375UPHF23CY51
+R3
+Z23 !s105 line_drawer_sv_unit
+S1
+R0
+Z24 w1620451034
+Z25 8C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/line_drawer.sv
+Z26 FC:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/line_drawer.sv
+L0 9
+R8
+r1
+!s85 0
+31
+R20
+Z27 !s107 C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/line_drawer.sv|
+Z28 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3|C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/line_drawer.sv|
+!i113 1
+R12
+R13
+R14
+vline_drawer_testbench
+R1
+R15
+!i10b 1
+!s100 1?=3UkacND:h70gjzHF421
+I<QAlLo9BCjXiffYM02P0N2
+R3
+R23
+S1
+R0
+R24
+R25
+R26
+L0 109
+R8
+r1
+!s85 0
+31
+R20
+R27
+R28
+!i113 1
+R12
+R13
+R14
+vVGA_framebuffer
+R1
+R15
+!i10b 1
+!s100 `6A`P2RPlQ@7gHH_0b8;_1
+Ih`c[kgdkEUgoeTP<@]:jh3
+R3
+!s105 VGA_framebuffer_sv_unit
+S1
+R0
+w1620208292
+8C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/VGA_framebuffer.sv
+FC:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/VGA_framebuffer.sv
+L0 3
+R8
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/VGA_framebuffer.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3|C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/VGA_framebuffer.sv|
+!i113 1
+R12
+R13
+R14
+n@v@g@a_framebuffer

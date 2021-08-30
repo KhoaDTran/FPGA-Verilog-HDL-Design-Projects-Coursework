@@ -1,0 +1,80 @@
+# Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# do DE1_SoC_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/tynou/Dropbox/College/Junior/Spring/EE\ 371/Lab/Lab3/lab3 {C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/VGA_framebuffer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:33 on May 07,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3" C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/VGA_framebuffer.sv 
+# -- Compiling module VGA_framebuffer
+# 
+# Top level modules:
+# 	VGA_framebuffer
+# End time: 22:31:33 on May 07,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/tynou/Dropbox/College/Junior/Spring/EE\ 371/Lab/Lab3/lab3 {C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/line_drawer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:33 on May 07,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3" C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/line_drawer.sv 
+# -- Compiling module line_drawer
+# -- Compiling module line_drawer_testbench
+# 
+# Top level modules:
+# 	line_drawer_testbench
+# End time: 22:31:33 on May 07,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/tynou/Dropbox/College/Junior/Spring/EE\ 371/Lab/Lab3/lab3 {C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/fsm.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:33 on May 07,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3" C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/fsm.sv 
+# -- Compiling module fsm
+# -- Compiling module fsm_testbench
+# 
+# Top level modules:
+# 	fsm_testbench
+# End time: 22:31:33 on May 07,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/tynou/Dropbox/College/Junior/Spring/EE\ 371/Lab/Lab3/lab3 {C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/DE1_SoC.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:31:34 on May 07,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3" C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/DE1_SoC.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# End time: 22:31:34 on May 07,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.DE1_SoC_testbench
+# vsim work.DE1_SoC_testbench 
+# Start time: 22:31:37 on May 07,2021
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.VGA_framebuffer
+# Loading work.fsm
+# Loading work.line_drawer
+# ** Warning: (vsim-3015) C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/DE1_SoC.sv(59): [PCDPC] - Port size (9) does not match connection size (10) for port 'y'. The port definition is at: C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/VGA_framebuffer.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/fb File: C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/VGA_framebuffer.sv
+# ** Warning: (vsim-3015) C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/DE1_SoC.sv(65): [PCDPC] - Port size (9) does not match connection size (10) for port 'y0'. The port definition is at: C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/line_drawer.sv(9).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lines File: C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/line_drawer.sv
+# ** Warning: (vsim-3015) C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/DE1_SoC.sv(65): [PCDPC] - Port size (9) does not match connection size (10) for port 'y1'. The port definition is at: C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/line_drawer.sv(9).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/lines File: C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/line_drawer.sv
+add wave -position end sim:/DE1_SoC_testbench/dut/*
+run -all
+# ** Note: $stop    : C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/DE1_SoC.sv(123)
+#    Time: 100150 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab3/lab3/DE1_SoC.sv line 123
+# End time: 22:32:38 on May 07,2021, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 3

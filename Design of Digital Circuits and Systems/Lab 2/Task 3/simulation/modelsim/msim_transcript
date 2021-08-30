@@ -1,0 +1,45 @@
+# Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# do FIFO_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/tynou/Dropbox/College/Junior/Spring/EE\ 371/Lab/Lab2c {C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab2c/ram16x8.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:45:42 on Apr 22,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab2c" C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab2c/ram16x8.v 
+# -- Compiling module ram16x8
+# -- Compiling module ram16x8_testbench
+# 
+# Top level modules:
+# 	ram16x8_testbench
+# End time: 22:45:42 on Apr 22,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim -gui -l msim_transcript work.ram16x8_testbench -Lf altera_mf_ver
+# vsim -gui -l msim_transcript work.ram16x8_testbench -Lf altera_mf_ver 
+# Start time: 22:46:04 on Apr 22,2021
+# Loading work.ram16x8_testbench
+# Loading work.ram16x8
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+add wave -position end  sim:/ram16x8_testbench/clock
+add wave -position end  sim:/ram16x8_testbench/data
+add wave -position end  sim:/ram16x8_testbench/rdaddress
+add wave -position end  sim:/ram16x8_testbench/wraddress
+add wave -position end  sim:/ram16x8_testbench/wren
+add wave -position end  sim:/ram16x8_testbench/q
+run -all
+# ** Note: $stop    : C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab2c/ram16x8.v(251)
+#    Time: 1050 ps  Iteration: 1  Instance: /ram16x8_testbench
+# Break in Module ram16x8_testbench at C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab2c/ram16x8.v line 251
+# End time: 22:48:06 on Apr 22,2021, Elapsed time: 0:02:02
+# Errors: 0, Warnings: 0

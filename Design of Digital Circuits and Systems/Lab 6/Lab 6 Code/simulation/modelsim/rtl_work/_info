@@ -1,0 +1,112 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab6/Lab 6 Code/simulation/modelsim
+vaudioControl
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1623127367
+!i10b 1
+!s100 m_ea8lPT=V]BZoAlP6?IK1
+I;M[TlHOM35GSFCz8:FeFK2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 audioControl_sv_unit
+S1
+R0
+Z5 w1623127341
+Z6 8C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab6/Lab 6 Code/audioControl.sv
+Z7 FC:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab6/Lab 6 Code/audioControl.sv
+L0 1
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1623127367.000000
+Z10 !s107 C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab6/Lab 6 Code/audioControl.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab6/Lab 6 Code|C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab6/Lab 6 Code/audioControl.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab6/Lab 6 Code}
+Z14 tCvgOpt 0
+naudio@control
+vaudioControl_testbench
+R1
+R2
+!i10b 1
+!s100 HC1CGA_10RF358]D:9<=z3
+I?>LeHkAaaBW<5QjBS;fNW1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 160
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+naudio@control_testbench
+vregister
+R1
+R2
+!i10b 1
+!s100 57fQSJ4lFlHG;ZQ[am[k63
+IzRULk[6jkkll=EENiKVQc3
+R3
+Z15 !s105 register_sv_unit
+S1
+R0
+Z16 w1621740460
+Z17 8C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab6/Lab 6 Code/register.sv
+Z18 FC:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab6/Lab 6 Code/register.sv
+L0 7
+R8
+r1
+!s85 0
+31
+R9
+Z19 !s107 C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab6/Lab 6 Code/register.sv|
+Z20 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab6/Lab 6 Code|C:/Users/tynou/Dropbox/College/Junior/Spring/EE 371/Lab/Lab6/Lab 6 Code/register.sv|
+!i113 1
+R12
+R13
+R14
+vregister_testbench
+R1
+R2
+!i10b 1
+!s100 Z`QAD8DTWl23]F^l;`lC_0
+IUKe5F<PDVY]z9C`Bf[L8W3
+R3
+R15
+S1
+R0
+R16
+R17
+R18
+L0 24
+R8
+r1
+!s85 0
+31
+R9
+R19
+R20
+!i113 1
+R12
+R13
+R14
